@@ -1,0 +1,8 @@
+n8n-daily-weather-slack/
+│
+├── workflow/
+│   └── daily-weather-report.json
+│
+├── .env.example
+├── README.md
+└── .gitignore
