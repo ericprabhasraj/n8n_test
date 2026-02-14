@@ -1,4 +1,4 @@
-# n8n_test
+#n8n_test
 n8n Starter Project: Daily Weather Report to Slack
 This repository contains a simple, beginner-friendly n8n project designed to automatically fetch the daily weather forecast and post it to a Slack channel. It's a great way to learn the basics of n8n, including triggers, fetching data from an API, and sending notifications.
 
