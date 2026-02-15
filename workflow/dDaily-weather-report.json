@@ -1,5 +1,5 @@
 {
-  "name": "Daily Weather Report to Slack",
+  "name": "Daily Weather Report",
   "nodes": [
     {
       "parameters": {
@@ -34,7 +34,7 @@
           "string": [
             {
               "name": "slackMessage",
-              "value": "={{`Good Morning! ☀️ Here is your weather report for ${$json[\"name\"]}:\n\nWeather: ${$json[\"weather\"][0][\"main\"]} (${$json[\"weather\"][0][\"description\"]})\nTemperature: ${$json[\"main\"][\"temp\"]}°C (Feels like ${$json[\"main\"][\"feels_like\"]}°C)\nHumidity: ${$json[\"main\"][\"humidity\"]}%\nWind Speed: ${$json[\"wind\"][\"speed\"]} m/s`}}"
+              "value": "={{`Good Morning! ☀️ Here is your weather report for you ${$json[\"name\"]}:\n\nWeather: ${$json[\"weather\"][0][\"main\"]} (${$json[\"weather\"][0][\"description\"]})\nTemperature: ${$json[\"main\"][\"temp\"]}°C (Feels like ${$json[\"main\"][\"feels_like\"]}°C)\nHumidity: ${$json[\"main\"][\"humidity\"]}%\nWind Speed: ${$json[\"wind\"][\"speed\"]} m/s`}}"
             }
           ]
         }
